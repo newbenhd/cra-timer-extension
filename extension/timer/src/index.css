@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+picture {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/* Setting */
+:root {
+  /* Size */
+  --size-1: 1rem;
+  --size-2: 2rem;
+  --size-3: 3rem;
+  /* Box */
+  --radius-1: 0.1rem;
+  --radius-2: 0.2rem;
+  /* Color */
+  --clr-white: white;
+  --clr-light: grey;
+  --clr-dark: darkgrey;
+  --clr-black: black;
+  --clr-primary: cyan;
+}
+
+/* BEM Styles */
+body {
+  block-size: 10rem;
+  inline-size: 20rem;
+}
+.btn {
+  padding-inline: var(--size-1);
+  padding-block: var(--size-1);
+  background: var(--clr-light);
+  outline: none;
+  border: none;
+  border-radius: var(--radius-1);
+  cursor: pointer;
+}
+.btn:hover {
+}
+.btn:active {
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Timer",
+  "version": "1.0",
+  "description": "Easy timer controller",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["alarms"],
+  "action": {
+    "default_popup": "build/index.html",
+    "default_icon": {
+      "32": "assets/timer.png"
+    }
+  }
+}
