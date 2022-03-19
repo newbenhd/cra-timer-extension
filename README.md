@@ -1,46 +1,53 @@
-# Getting Started with Create React App
+# Timer Chrome Extension
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Developed by Benjamin Morrison
 
-## Available Scripts
+## Version: 0.1
 
-In the project directory, you can run:
+## Release Date:
 
-### `npm start`
+### Intro to development
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Manifest.json
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- The manifest.json file tells Chrome key information about our extension,
+  its different parts, and how to handle each one.
 
-### `npm test`
+## Applicatin Plan
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Gather Requirements (General & Specific)
 
-### `npm run build`
+- General Requirements
+  - User wants to create timer
+  - User wants to edit timer
+  - User wants to delete timer
+  - User wants to save timer after closing browser
+  - User wants to see timer on badge
+  - User wants to be alerted when timer is gone
+- Specifid Requirements
+  - Does system supports internationalization?
+  - Does system supports offline mode?
+  - Estimated maximum number of timer and other data?
+  - Does system supports user? If so, what authentication method?
+    - What's estimated number of users?
+  - Does system supports navigation?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Component Architecture
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- UI Components
+- UX Design
+- Component Architecture
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Data Model
 
-### `npm run eject`
+-
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Data API
+5. Data Store
+6. Performance
+7. Accessibility
+8. Resolve specific requirements
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Resources
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Creating development environment with Chrome extension env and CRA](https://javascript.plainenglish.io/creating-a-chrome-extension-with-react-d92db20550cb)
