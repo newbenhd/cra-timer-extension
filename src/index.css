@@ -1,3 +1,20 @@
+/* Setting */
+:root {
+  /* Size */
+  --size-1: 1rem;
+  --size-2: 2rem;
+  --size-3: 3rem;
+  /* Box */
+  --radius-1: 0.1rem;
+  --radius-2: 0.2rem;
+  /* Color */
+  --clr-white: white;
+  --clr-light: grey;
+  --clr-dark: darkgrey;
+  --clr-black: black;
+  --clr-primary: cyan;
+}
+
 *,
 *::before,
 *::after {
@@ -15,7 +32,6 @@ picture {
 }
 body {
   line-height: 1.5;
-  min-height: 100vh;
 }
 input,
 button,
@@ -30,6 +46,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  block-size: 10rem;
-  inline-size: 20rem;
+  block-size: 20rem;
+  inline-size: 15rem;
+}
+#root {
+  block-size: 100%;
 }

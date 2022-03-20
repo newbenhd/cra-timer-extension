@@ -1,0 +1,4 @@
+.vlist {
+  display: flex;
+  flex-direction: column;
+}

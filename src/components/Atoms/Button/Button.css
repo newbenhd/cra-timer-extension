@@ -1,0 +1,36 @@
+.btn {
+  --clr-primary: lightblue;
+  --clr-primary-2: blue;
+  --clr-secondary: lightgreen;
+  --clr-secondary-2: green;
+  --clr-danger: rgba(red, 0.7);
+  --clr-danger-2: red;
+  --clr-warn: lightyellow;
+  --clr-warn-2: yellow;
+  outline: none;
+  border-radius: var(--radius-1);
+  cursor: pointer;
+}
+.btn-standard {
+  border: 1px solid var(--clr-black);
+}
+.btn-primary {
+  border: 1px solid var(--clr-primary-2);
+  background: var(--clr-primary);
+}
+.btn-secondary {
+  border: 1px solid var(--clr-secondary-2);
+  background: var(--clr-secondary);
+}
+.btn-danger {
+  border: 1px solid var(--clr-danger-2);
+  background: var(--clr-danger);
+}
+.btn-warn {
+  border: 1px solid var(--clr-warn-2);
+  background: var(--clr-warn);
+}
+.btn:hover {
+}
+.btn:active {
+}

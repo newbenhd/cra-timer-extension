@@ -1,0 +1,9 @@
+.sticky-footer {
+  inline-size: 100%;
+  min-block-size: var(--size-2);
+  top: 100%;
+  position: sticky;
+  background: var(--clr-dark);
+  display: flex;
+  padding-inline: 0.315rem;
+}

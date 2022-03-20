@@ -1,0 +1,7 @@
+.hlist {
+  display: flex;
+  inline-size: 100%;
+}
+.hlist.border {
+  border: 1px solid var(--clr-black);
+}
